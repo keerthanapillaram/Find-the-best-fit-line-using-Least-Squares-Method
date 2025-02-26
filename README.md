@@ -41,7 +41,10 @@ b=y_mean-(m * x_mean)
 print('slope',m)
 print('y-intecept',b)
 y_predicted=m*x+b
-y_predicted
+print("Predicted-Values:",y_predicted)
+plt.title("Univariate Regression")
+plt.xlabel("X-Values")
+plt.ylabel("Y-Values")
 plt.scatter(x,y,color='blue')
 plt.plot(x,y_predicted,color='red')
 plt.show()
@@ -53,7 +56,7 @@ plt.show()
 ## Output:
 ![best fit line](sam.png)
 
-![image](https://github.com/user-attachments/assets/df4d9821-719b-4420-b8ea-b05eebfc5171)
+![image](https://github.com/user-attachments/assets/76187de5-2f83-4d2b-bc6d-b80f18875f32)
 
 
 
