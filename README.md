@@ -38,7 +38,8 @@ for i in range(len(x)):
     denom+=(x[i]-x_mean)**2
 m=num/denom
 b=y_mean-(m * x_mean)
-print(m,b)
+print('slope',m)
+print('y-intecept',b)
 y_predicted=m*x+b
 y_predicted
 plt.scatter(x,y,color='blue')
